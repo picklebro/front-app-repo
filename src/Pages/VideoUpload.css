@@ -1,0 +1,45 @@
+.video-upload-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 500px;
+    margin: 20px auto;
+  }
+  
+  .video-upload-wrapper input {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 80%;
+  }
+  
+  .video-upload-wrapper button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #0073b7;
+    border: 1px solid #0073b7;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .video-upload-wrapper button:hover {
+    background-color: #005792;
+  }
+  
+  .video-upload-wrapper progress {
+    width: 80%;
+    margin-top: 10px;
+  }
+  
+  .video-upload-wrapper p {
+    margin-top: 10px;
+    color: green;
+  }
+  
