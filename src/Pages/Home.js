@@ -257,7 +257,7 @@ function Home({ isDarkMode, setIsDarkMode }) {
                                             sx={{ marginLeft: "20px" }}
                                             onClick={handleButtonClick} // handleButtonClick 실행
                                         >
-                                            {codeValue ? 'Sign Out' : 'Sign In'}
+                                            {codeValue ? 'CI/CD Test' : 'CI/CD Test'}
                                         </Button>
                                     </Link>
                                 </div>
